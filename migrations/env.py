@@ -16,6 +16,7 @@ if config.config_file_name is not None:
 
 from src.models import Base
 from src.models.categories import Categories
+from src.models.products import Products
 
 target_metadata = Base.metadata
 

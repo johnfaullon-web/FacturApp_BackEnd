@@ -1,0 +1,20 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:5000/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Acetaminofen 500 mg\",\r
+
+    \    \"description\": \"Tabletas de acetaminofen 500 mg\",\r
+
+    \    \"price\": 12000,\r
+
+    \    \"stock\": 50,\r
+
+    \    \"category_id\": 1\r
+
+    }"
+order: 2000
