@@ -1,0 +1,28 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:5000/api/v1/clients
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"document_type\": \"CC\",\r
+
+    \  \"document_number\": \"1020304050\",\r
+
+    \  \"name\": \"Cliente Prueba\",\r
+
+    \  \"email\": \"cliente.prueba@example.com\",\r
+
+    \  \"phone\": \"3001234567\",\r
+
+    \  \"address\": \"Calle 10 # 20-30\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_1acu}}"
+order: 2000

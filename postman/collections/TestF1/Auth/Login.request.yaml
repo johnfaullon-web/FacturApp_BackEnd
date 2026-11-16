@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:5000/api/v1/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"prueba@example.com\",\r
+
+    \  \"password\": \"Prueba123\"\r
+
+    }"
+order: 1000

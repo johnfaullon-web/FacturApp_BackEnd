@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://127.0.0.1:5000/api/v1/clients/3
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"phone\": \"3109876543\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_15w0}}"
+order: 4000

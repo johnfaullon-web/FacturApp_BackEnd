@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://127.0.0.1:5000/api/v1/clients/3
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_15w0}}"
+order: 3000
