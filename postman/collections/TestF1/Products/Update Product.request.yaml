@@ -1,0 +1,21 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:5000/api/v1/products/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Ibuprofeno 400 mg\",\r
+
+    \    \"description\": \"Tabletas de ibuprofeno 400 mg - presentación
+    actualizada\",\r
+
+    \    \"price\": 12500,\r
+
+    \    \"stock\": 48,\r
+
+    \    \"category_id\": 1\r
+
+    }"
+order: 1000

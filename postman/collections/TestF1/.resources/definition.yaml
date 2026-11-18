@@ -12,3 +12,21 @@ variables:
   - key: json_web_token_15w0
     secret: true
     disabled: false
+  - key: json_web_token_037d
+    secret: true
+    disabled: false
+  - key: json_web_token_0j0k
+    secret: true
+    disabled: false
+  - key: json_web_token_0fid
+    secret: true
+    disabled: false
+  - key: json_web_token_0mik
+    secret: true
+    disabled: false
+  - key: json_web_token_0h3x
+    secret: true
+    disabled: false
+  - key: json_web_token_0lyd
+    secret: true
+    disabled: false

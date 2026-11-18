@@ -1,13 +1,11 @@
 $kind: http-request
-url: http://127.0.0.1:5000/api/v1/login
-method: POST
+url: http://127.0.0.1:5000/api/v1/users/3/role
+method: PUT
 body:
   type: json
-  content: "{\r
-
-    \    \"email\": \"prueba@example.com\",\r
-
-    \    \"password\": \"Prueba123\"\r
-
-    }"
+  content: "{\r\n    \"role\": \"SELLER\"\r\n}"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0j0k}}"
 order: 2000
